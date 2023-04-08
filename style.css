@@ -557,5 +557,7 @@ body::-webkit-scrollbar {
   .btn--download{
     padding: 5px 10px;
     font-size: 0.8rem;
+    left:50%;
+    transform: translate(-50%)
   }
 }
