@@ -4,7 +4,7 @@
 const fadeEl = document.querySelector('.fade');
 const copy = document.getElementById('copy');
 const year = new Date().getFullYear();
-copy.innerText = `&copy Copyright ${year}`
+copy.innerHTML = `&copy Copyright ${year}`
 
 let hasScrolled = false;
 window.addEventListener('scroll', () => {
